@@ -17,3 +17,24 @@
 | [2035. Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | Normal approach<br>Recursion - how to handle two sums for each set?<br>Memoize it?<br><br>Still fails after memozing<br>How to handle that?<br><br>Meet in the middle approach (actual way to do it)<br>Who to use this? <br>because of constrains<br>memo + DP is also not fitting<br>So split it into two and run memo+ DP<br>How can I get count + sum check? Use maps<br>How can I check closest sum? Take k and n-k and check<br>How to create closest bounds? Check range <length and >0 | Come back to this = DP + Bin search<br><br>Love this sum |
 | Count subsets with sum K                                                                                                                                      | Find all ways                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                          |
 | Count partitions with given difference                                                                                                                        | read the sum clearly<br>How can I handle the usecase to subset sum = K<br>What maths can I apply?                                                                                                                                                                                                                                                                                                                                                                                              |                                                          |
+
+## Trees
+
+
+| Leetcode                                                                                         | Notes                                                                                                                                   |                                                 |
+| ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)           | How to caluclate height?<br>Take negative for null case                                                                                 | Follow up - calulcate nodes in longest diameter |
+| [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |                                                                                                                                         |                                                 |
+| [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                 | How to handle height + balanced?<br>Can you think of another way rather than using height and balanced? It can be done with just height | Can't I check balanced just with numbers?       |
+|                                                                                                  |                                                                                                                                         |                                                 |
+
+## Heap
+
+| LeetCode                                                             |                                 |                                          |
+| -------------------------------------------------------------------- | ------------------------------- | ---------------------------------------- |
+| [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Heap + how to handle index?<br> | there are more ways to solve it learn it |
+
+## Backtracking
+| LeetCode | Notes | Comments |
+| -------- | ----- | -------- |
+|          |       |          |
