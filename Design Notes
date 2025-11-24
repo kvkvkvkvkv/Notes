@@ -1,0 +1,24 @@
+Design Notes - How to think
+
+Showing data in chunks for GET api
+- Pagination
+- Static or Synamaic pagination 
+
+Static
+GET /events?limit=10
+first time offset=0
+next time frontend sees how much it has processed and sends
+GET /events?limit=10&offset=10
+
+cons - if values added in start it can modify the offset answers
+
+A 0
+B 1
+C 2
+
+This case shows offset failure case
+C 0
+A 1
+B 2
+C 3
+
